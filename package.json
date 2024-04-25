@@ -1,7 +1,7 @@
 {
   "name": "vite-plugin-top-level-await-worker",
-  "version": "1.4.2",
-  "description": "Transform code to support top-level await in normal browsers for Vite.",
+  "version": "1.4.3",
+  "description": "Same as vite-plugin-top-level-await, but fixed for web workers.",
   "main": "./exports/require.cjs",
   "module": "./exports/import.mjs",
   "exports": {
@@ -14,7 +14,7 @@
       "default": "./exports/require.cjs"
     }
   },
-  "repository": "https://github.com/Menci/vite-plugin-top-level-await",
+  "repository": "https://github.com/earthbucks/vite-plugin-top-level-await-worker",
   "author": "Menci <huanghaorui301@gmail.com>",
   "license": "MIT",
   "keywords": [
