@@ -1,6 +1,6 @@
 {
-  "name": "vite-plugin-top-level-await",
-  "version": "1.4.1",
+  "name": "vite-plugin-top-level-await-worker",
+  "version": "1.4.2",
   "description": "Transform code to support top-level await in normal browsers for Vite.",
   "main": "./exports/require.cjs",
   "module": "./exports/import.mjs",
@@ -43,6 +43,7 @@
   "dependencies": {
     "@rollup/plugin-virtual": "^3.0.2",
     "@swc/core": "^1.3.100",
+    "rollup": "^4.16.4",
     "uuid": "^9.0.1"
   },
   "peerDependencies": {
