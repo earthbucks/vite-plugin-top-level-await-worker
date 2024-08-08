@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-top-level-await-worker",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "description": "Same as vite-plugin-top-level-await, but fixed for web workers.",
   "main": "./exports/require.cjs",
   "module": "./exports/import.mjs",
@@ -25,6 +25,7 @@
   ],
   "scripts": {
     "build": "tsc",
+    "prepublishOnly": "tsc",
     "test": "jest --verbose --coverage",
     "format": "prettier --write '**/*.{mjs,cjs,js,ts}'"
   },
